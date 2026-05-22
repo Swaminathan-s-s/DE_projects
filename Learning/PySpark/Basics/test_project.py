@@ -1,7 +1,7 @@
 import sys
 sys.path.append(r"D:\DE_projects")
-from Scripts.utilities.spark_session import create_spark
-from Scripts.utilities.logger import logger
+from Infrastructure.Scripts.utilities.spark_session import create_spark
+from Infrastructure.Scripts.utilities.logger import logger
 
 # Create Spark Session
 spark = create_spark("Test_Project")
